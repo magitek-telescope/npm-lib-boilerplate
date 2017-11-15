@@ -1,6 +1,6 @@
 // @flow
 
-function main(){
+function main () {
   return true
 }
 
