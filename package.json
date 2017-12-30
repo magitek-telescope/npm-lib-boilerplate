@@ -1,0 +1,8 @@
+{
+  "name": "npm-lib-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/magitek-telescope/npm-lib-boilerplate.git",
+  "author": "HANATANI Takuma <mail@potato4d.me>",
+  "license": "MIT"
+}
