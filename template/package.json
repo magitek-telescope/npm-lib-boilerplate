@@ -1,8 +1,9 @@
 {
-  "name": "package-name",
+  "name": "<%= name %>",
+  "description": "<%= description %>",
   "version": "0.0.1",
   "main": "lib/index.js",
-  "author": "Hanatani Takuma <mail@potato4d.me>",
+  "author": "<%= username %> <<%= email %>> (<%= website %>)",
   "license": "MIT",
   "scripts": {
     "prepare": "yarn build",
@@ -17,6 +18,10 @@
     "test:flow": "flow",
     "fmt": "prettier-eslint ./src/**/*.js --write",
     "eslint": "eslint"
+  },
+  "repository": {
+    "url": "<%= username %>/<%= name %>",
+    "type": "git"
   },
   "devDependencies": {
     "ava": "^0.23.0",
