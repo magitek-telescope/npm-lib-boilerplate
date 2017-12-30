@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/magitek-telescope/npm-lib-boilerplate.git",
   "author": "HANATANI Takuma <mail@potato4d.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "sao.js",
+    "template"
+  ],
+  "devDependencies": {
+    "sao": "^0.22.11"
+  }
 }
